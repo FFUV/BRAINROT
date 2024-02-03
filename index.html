@@ -1,102 +1,109 @@
 <!DOCTYPE html
-<html langen">
+<html lang="en">
 <head>
-    <meta charsetUTF-8">
-    <meta name="" content="=device-width initialscale=.0">
-    <title>BRAINROT AND INSANITY</title>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Brain+Flower&display=swap">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  </head>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px 0px;
-            border-radius: 5px;
-            background-color: #337ab7;
-            color: white;
-            text-decoration: none;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
-        .button:hover {
-            background-color: #2e6da4;
-        }
-        header {
-            margin: 0 0 30px;
-            padding: 20px;
-            text-align: center;
-            background-color: #f2f2f2;
-        }
-        .intro {
-            margin: 0 0 30px;
-            padding: 0 20px;
-            font-size: 1.2rem;
-            line-height: 1.5;
-            text-align: justify;
-        }
-        .cta {
-            display: block;
-            margin: 0 auto;
-        }
-        @media (max-width: 600px) {
-            header {
-                padding: 10px;
-            }
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport"="width=devicewidth, initial-=1.0">
+  <title>BRAINROT AND INSANITY</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Brain+Flower&display=swap">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+  <style>
+    body {
+      font-family: 'Brain Flower', cursive;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+    .container {
+      position: relative;
+      text-align: center;
+      max-width: 800px;
+    }
+    .header {
+      font-size: 4rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+      animation: blink 1s ease-in-out infinite;
+    }
+    .header:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-10deg);
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 0, 0, 0.1);
+      z-index: -1;
+    }
+    .intro {
+      font-size: 1.5rem;
+      line-height: 1.5;
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+      animation: fadeIn 2s ease-in-out;
+    }
+    .cta {
+      margin-top: 3rem;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 0px;
+      border-radius: 5px;
+      background-color: #ff0000;
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #ff5757;
+    }
+    @keyframes blink {
+      0% {
+        text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+      }
+      50% {
+        text-shadow: 2px 2px 4px rgba(255, 0, 0, 0);
+      }
+      100% {
+        text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+      }
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
 </head>
 <body>
-    <section>
-        <header>
-            <div id="blinkyText" style="position: absolute; top: 50px; left: 50px; font-size: 2rem; color: #ff0000;"></div>
-            <h1 style="color: #ff0000; font-size: 2.5rem; margin-bottom: 0.5rem;">BRAINROT AND INSANITY</h1>
-            <p style="color: #ffffff; font-size: 1.2rem; margin: 0;">A journey into the depths of the human mind</p>
-          </header>
-          <div class="ro">
-            <p>Welcome to the twisted realm of the human mind, where insanity reigns supreme. are the masters of chaos, the pioneers of the abyss, the ones who dare to venture into the depths of the human psyche.</p>
-            <p>Our team of mad scientists and unhinged visionaries are dedicated to pushing the boundaries of what is sane, and we are constantly exploring new ways to drive you to the brink of madness. Whether it's through our groundbreaking research and development efforts, or our commitment to collaboration and transparency, we are passionate about making the world a more unstable place.</p>
-            <p>Join us on this journey into the heart of darkness, where the only certainty is uncertainty, and the only truth is that there are no truths. Embrace the insanity, and let us guide you into the depths of your own mind.</p>
-          </div>
-          <p class="cta"><a href="# class="button">Descend into the Abyss</a></p>
-          section>
-          <header style="color:ff0000; font-size: 2.5rem; margin-bottom: 0.5rem;">Embrace the Insanity</header>
-          <script>const blinkyText = document.getElementById("blinkyText");
-            const phrases = [
-              "BRAINROT AND INSANITY",
-              "A journey into the depths of the human mind",
-              "Embrace the Insanity",
-              "Descend into the Abyss"
-            ];
-            let index = 0;
-            
-            function updateBlinkyText() {
-              blinkyText.textContent = phrases[index];
-              index = (index + 1) % phrases.length;
-            }
-            
-            function blink() {
-              if (blinkyText.style.visibility === "hidden") {
-                blinkyText.style.visibility = "visible";
-              } else {
-                blinkyText.style.visibility = "hidden";
-              }
-            }
-            
-            function moveBlinkyText() {
-              const x = Math.random() * (window.innerWidth - 200);
-              const y = Math.random() * (window.innerHeight - 200);
-              blinkyText.style.top = y + "px";
-              blinkyText.style.left = x + "px";
-            }
-            
-            setInterval(blink, 500);
-            setInterval(updateBlinkyText, 2000);
-            setInterval(moveBlinkyText, 10000);</script>
+  <div class="container">
+    <div class="header">BRAINROT AND INSANITY</div>
+    <p class="intro">
+      Welcome to the twisted realm of the human mind, where insanity reigns supreme.
+      We are the masters of chaos, the pioneers of the abyss, the ones who dare to
+      venture into the depths of the human psyche. Our team of mad scientists and
+      unhinged visionaries are dedicated to pushing the boundaries of what is sane,
+      and we are constantly exploring new ways to drive you to the brink of madness.
+      Whether it's through our groundbreaking research and development efforts, or our
+      commitment to collaboration and transparency, we are passionate about making
+      the world a more unstable place. Join us on this journey into the heart of
+      darkness, where the only certainty is uncertainty, and the only truth is that
+      there are no truths. Embrace the insanity, and let us guide you into the depths
+      of your own mind.
+    </p>
+    <div class="cta">
+      <a href="#" class="button">Descend into the Abyss</a>
+    </div>
+  </div>
 </body>
 </html>
