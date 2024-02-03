@@ -15,9 +15,9 @@ Welcome to Brainrot, a mind-bending visual experience that induces a state of pu
 
 ## Usage
 
-Embark on a journey through the depths of insanity with our Brainrot animation. Push the limits of your mind and experience a visual adventure like never before.
+Embark on a journey through the depths of insanity with our Brainrot animation. Push the limits of your mind and experience a visual adventure like never before. [BRAINROT](https://ffuv.github.io/BRAINROT)
 
-## Contributing
+## Contributing 🧑‍💻
 
 Want to contribute to Brainrot? Here's how you can get involved:
 
@@ -28,13 +28,14 @@ Want to contribute to Brainrot? Here's how you can get involved:
 
 We welcome contributions from the community to enhance and expand the Brainrot experience.
 
-## License
+## -License- 📃
+ 
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
-This project is licensed under the [MIT License](link_to_license) - see the [LICENSE](link_to_license) file for details.
-
-## Contact
+## Contacts📞
 
 Feel free to reach out if you have any questions or suggestions:
 
 - **Email**: Muusyinc@gmail.com
 - **Twitter**: [@BenadrylYum](https://twitter.com/BenadrylYum)
+- **GUNS.LOL**: [FREAKS](https://guns.lol/freaks)
