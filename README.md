@@ -1,6 +1,6 @@
 # **BRAINROT 🧠🗑️**
 
-[![Demo](Demo.png)](https://ffuv.github.io/BRAINROT/)
+[![Demo](Brainrot.jpg)](https://ffuv.github.io/BRAINROT/)
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
