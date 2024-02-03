@@ -1,0 +1,101 @@
+<!DOCTYPE html
+<html langen">
+<head>
+    <meta charsetUTF-8">
+    <meta name="" content="=device-width initialscale=.0">
+    <title>BRAINROT AND INSANITY</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Brain+Flower&display=swap">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0px;
+            border-radius: 5px;
+            background-color: #337ab7;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #2e6da4;
+        }
+        header {
+            margin: 0 0 30px;
+            padding: 20px;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+        .intro {
+            margin: 0 0 30px;
+            padding: 0 20px;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        .cta {
+            display: block;
+            margin: 0 auto;
+        }
+        @media (max-width: 600px) {
+            header {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <header>
+            <div id="blinkyText" style="position: absolute; top: 50px; left: 50px; font-size: 2rem; color: #ff0000;"></div>
+            <h1 style="color: #ff0000; font-size: 2.5rem; margin-bottom: 0.5rem;">BRAINROT AND INSANITY</h1>
+            <p style="color: #ffffff; font-size: 1.2rem; margin: 0;">A journey into the depths of the human mind</p>
+          </header>
+          <div class="ro">
+            <p>Welcome to the twisted realm of the human mind, where insanity reigns supreme. are the masters of chaos, the pioneers of the abyss, the ones who dare to venture into the depths of the human psyche.</p>
+            <p>Our team of mad scientists and unhinged visionaries are dedicated to pushing the boundaries of what is sane, and we are constantly exploring new ways to drive you to the brink of madness. Whether it's through our groundbreaking research and development efforts, or our commitment to collaboration and transparency, we are passionate about making the world a more unstable place.</p>
+            <p>Join us on this journey into the heart of darkness, where the only certainty is uncertainty, and the only truth is that there are no truths. Embrace the insanity, and let us guide you into the depths of your own mind.</p>
+          </div>
+          <p class="cta"><a href="# class="button">Descend into the Abyss</a></p>
+          section>
+          <header style="color:ff0000; font-size: 2.5rem; margin-bottom: 0.5rem;">Embrace the Insanity</header>
+          <script>const blinkyText = document.getElementById("blinkyText");
+            const phrases = [
+              "BRAINROT AND INSANITY",
+              "A journey into the depths of the human mind",
+              "Embrace the Insanity",
+              "Descend into the Abyss"
+            ];
+            let index = 0;
+            
+            function updateBlinkyText() {
+              blinkyText.textContent = phrases[index];
+              index = (index + 1) % phrases.length;
+            }
+            
+            function blink() {
+              if (blinkyText.style.visibility === "hidden") {
+                blinkyText.style.visibility = "visible";
+              } else {
+                blinkyText.style.visibility = "hidden";
+              }
+            }
+            
+            function moveBlinkyText() {
+              const x = Math.random() * (window.innerWidth - 200);
+              const y = Math.random() * (window.innerHeight - 200);
+              blinkyText.style.top = y + "px";
+              blinkyText.style.left = x + "px";
+            }
+            
+            setInterval(blink, 500);
+            setInterval(updateBlinkyText, 2000);
+            setInterval(moveBlinkyText, 10000);</script>
+</body>
+</html>
