@@ -1,4 +1,4 @@
-# **BRAINROT 🗑️🧠**
+# **BRAINROT 🧠💩**
 
 [![Demo](Demo.png)](https://ffuv.github.io/BRAINROT/)
 
