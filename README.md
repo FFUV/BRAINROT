@@ -1,4 +1,7 @@
 # **BRAINROT 🧠🗑️**
+<p align="center">
+  <img src="Demo_tiny.png" alt="Demo" width="50%">
+</p>
 
    [![Brainrot](Brainrot.jpg)](https://ffuv.github.io/BRAINROT/)
 
