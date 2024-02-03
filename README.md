@@ -1,6 +1,6 @@
 # Brainrot
 
-[![Demo](Demo_tiny.png)](https://ffuv.github.io/BRAINROT/)
+[![Demo](Demo.png)](https://ffuv.github.io/BRAINROT/)
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
