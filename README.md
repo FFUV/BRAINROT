@@ -1,7 +1,7 @@
 # **BRAINROT 🧠🗑️**
 
 <p align="center">
-  <img src="Brainrot.jpg" alt="Brainrot" width="80%">
+  <img src="Brainrot.jpg" alt="Brainrot" width="65%">
 </p>
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
